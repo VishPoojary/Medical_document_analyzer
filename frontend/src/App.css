@@ -1,0 +1,175 @@
+
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #1e293b;
+  background: #f6f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 20px 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+  color: #5b3be4;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.header-label,
+.muted {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.hero {
+  padding: 42px 0 28px;
+}
+
+.eyebrow {
+  color: #5b3be4;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  max-width: 650px;
+  margin: 10px 0;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.12;
+}
+
+.subtitle {
+  max-width: 650px;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.panel,
+.result-card {
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: white;
+}
+
+.panel h2,
+.results h2 {
+  margin-top: 0;
+}
+
+.dropzone {
+  display: flex;
+  min-height: 170px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0;
+  padding: 24px;
+  border: 2px dashed #c4b5fd;
+  border-radius: 12px;
+  background: #faf9ff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropzone input {
+  max-width: 100%;
+  font-size: 14px;
+}
+
+.upload-icon {
+  color: #5b3be4;
+  font-size: 30px;
+}
+
+button {
+  width: 100%;
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: #5b3be4;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  color: #5b3be4;
+}
+
+.error {
+  color: #b42318;
+  background: #fff1f0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.results {
+  display: grid;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.results > h2,
+.results > p {
+  margin-bottom: 0;
+}
+
+.result-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.result-card ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+footer {
+  margin-top: 36px;
+  color: #64748b;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .panel,
+  .result-card {
+    padding: 18px;
+  }
+}

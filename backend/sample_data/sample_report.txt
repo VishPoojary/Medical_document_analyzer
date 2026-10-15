@@ -1,0 +1,23 @@
+Patient Name: John Doe
+Age: 45
+Date: 2026-09-20
+
+Clinical Summary:
+Patient presents for routine diabetes follow-up.
+
+Diagnosis:
+Type 2 Diabetes Mellitus.
+
+Medications:
+Metformin 500 mg twice daily.
+
+Laboratory Results:
+HbA1c: 7.2%
+Fasting Glucose: 145 mg/dL
+Total Cholesterol: 210 mg/dL
+
+Assessment:
+Diabetes control requires continued monitoring.
+
+Plan:
+Continue current medication and follow up with physician.
